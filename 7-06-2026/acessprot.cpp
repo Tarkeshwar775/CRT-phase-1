@@ -9,3 +9,8 @@ public:
         cout << "secretCode of the locker is " << secretCode;
     }
 };
+
+int main() {
+    child obj1;
+    obj1.accessOfSecretCode();
+}
